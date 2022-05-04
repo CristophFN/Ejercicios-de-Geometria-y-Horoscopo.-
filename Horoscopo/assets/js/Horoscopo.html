@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horoscopo</title>
+  </head>
+  <body>
+    <h1>Hola Dios, soy yo de nuevo jugando con el horoscopo.</h1>
+    <form name="formulario1">
+      <table style="text-align: left; margin-left: auto; margin-right: auto">
+        <tbody>
+          <tr>
+            <td>
+              <label for="dia">Ingresa el valor de dia:</label>
+            </td>
+            <td>
+              <input name="dia" required="required" step="1" type="number" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="mes">Ingresa el valor de mes:</label>
+            </td>
+            <td>
+              <input name="mes" required="required" step="1" type="number" />
+            </td>
+          </tr>
+          <tr align="center">
+            <td colspan="2" rowspan="1">
+              <input value="Procesar" type="button" onclick="Horoscopo();" />
+              <input type="reset" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <script src="/Ejercicios Horoscopo y Geometria/Horoscopo/assets/js/horoscopo.js"></script>
+  </body>
+</html>
